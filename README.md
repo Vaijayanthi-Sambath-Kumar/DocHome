@@ -12,3 +12,9 @@
 Resources:
 
  https://developers.google.com/codelabs/maps-platform/maps-platform-101-js?hl=en&authuser=1#0
+
+Names:
+  
+  DocCure
+  
+  DocHome
