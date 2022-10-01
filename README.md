@@ -9,3 +9,6 @@
  
  https://github.com/anujdutt9/Disease-Prediction-from-Symptoms/tree/master/dataset
  
+Resources:
+
+ https://developers.google.com/codelabs/maps-platform/maps-platform-101-js?hl=en&authuser=1#0
