@@ -1,4 +1,20 @@
 # IEEE-Hackathon
+
+Instructions on how to pull(for the first time):-
+1) make a new folder named ieee-hackathon
+2) open cmd
+3) go to ieee-hackathon in cmd using the cd command. Google how to use it.
+4) Use commands :-
+   1) git init
+   2) git remote add origin https://github.com/Vaijayanthi-Sambath-Kumar/IEEE-Hackathon.git
+   3) git pull origin main
+   
+for subsequent pulling, use:-
+git pull origin main --allow-unrealted-histories
+
+
+Datasets:
+
  https://www.kaggle.com/datasets/neelampandey/disease-prediction-dataset
  
  https://www.kaggle.com/datasets/hagari/disease-and-their-symptoms
