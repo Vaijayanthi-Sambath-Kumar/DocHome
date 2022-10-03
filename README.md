@@ -1,5 +1,6 @@
 # IEEE-Hackathon
 
+
 Instructions on how to pull(for the first time):-
 1) make a new folder named ieee-hackathon
 2) open cmd
@@ -10,7 +11,9 @@ Instructions on how to pull(for the first time):-
    3) git pull origin main
    
 for subsequent pulling, use:-
-git pull origin main --allow-unrealted-histories
+1) open cmd
+2) go to ieee-hackathon in cmd using the cd command. 
+3) git pull origin main --allow-unrealted-histories
 
 
 Datasets:
