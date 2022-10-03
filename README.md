@@ -14,6 +14,10 @@ Resources:
  https://developers.google.com/codelabs/maps-platform/maps-platform-101-js?hl=en&authuser=1#0
  
  https://healeycodes.com/talking-between-languages
+ 
+ https://dataanalyticsireland.ie/2022/02/14/how-to-run-python-directly-from-javascript/
+ 
+ https://www.youtube.com/watch?v=rq4t_JK91Xc
 
 Names:
   
