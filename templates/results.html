@@ -1,12 +1,62 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <title>test page</title>
-    </head>
-    <body>
-        <p>
-            hellu
-        </p>
-        hellu
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/results_style.css')}}">
+    <title>DocHome Results</title>
+  </head>
+  <body>
+    <div id="body1">
+      <div class="logo">
+        <img src="{{ url_for('static', filename = 'images/logo/DocHome.png')}}" alt="DocHome logo" />
+      </div>
+    </div>
+    <div id="body2">
+      <div class="container">
+        <div class="title">Results</div>
+        <br />
+
+        <div class="content">
+          <table>
+            <thead>
+              <tr>
+                <th>Disease Name</th>
+                <th>Chance</th>
+                <th>Remedy</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="disease1"><strong>{{results[0][0]}}</strong></td>
+                <td id="chance1">{{results[0][1]}}</td>
+                <td id="cure1">{{results[0][2]}}</td>
+              </tr>
+              <tr>
+                <td id="disease2"><strong>{{results[1][0]}}</strong></td>
+                <td id="chance2">{{results[1][1]}}</td>
+                <td id="cure2">{{results[1][2]}}</td>
+              </tr>
+              <tr>
+                <td id="disease3"><strong>{{results[2][0]}}</strong></td>
+                <td id="chance3">{{results[2][1]}}</td>
+                <td id="cure3">{{results[2][2]}}</td>
+              </tr>
+              <tr>
+                <td id="disease4"><strong>{{results[3][0]}}</strong></td>
+                <td id="chance4">{{results[3][1]}}</td>
+                <td id="cure4">{{results[3][2]}}</td>
+              </tr>
+              <tr>
+                <td id="disease5"><strong>{{results[4][0]}}</strong></td>
+                <td id="chance5">{{results[4][1]}}</td>
+                <td id="cure5">{{results[4][2]}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

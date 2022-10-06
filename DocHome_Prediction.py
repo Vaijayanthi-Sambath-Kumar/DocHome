@@ -1,13 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[20]:
-
 
 def pred_disease(string):
     user_symptoms=str(string).lower().split(',')
 
     # importing all necessary libraries
+    import pickle
     import numpy as np
     import pandas as pd
     from sklearn.metrics import accuracy_score
@@ -50,8 +46,8 @@ def pred_disease(string):
     #df_norm -> Dataframe consisting of dataset which contains a single row for each diseases with all the symptoms for that corresponding disease.*
     #Dataset contains 261 diseases and their symptoms**
 
-    df_comb = joblib.load('df_comb') # Disease combination
-    df_norm = joblib.load('df_norm') # Individual Disease
+    df_comb = pd.read_csv('dis_sym_dataset_comb.csv') # Disease combination
+    df_norm = pd.read_csv('dis_sym_dataset_norm.csv') # Individual Disease
 
     X = df_comb.iloc[:, 1:]
     Y = df_comb.iloc[:, 0:1]
@@ -100,7 +96,8 @@ def pred_disease(string):
         sample_x[dataset_symptoms.index(val)]=1
         
     #Loading the model
-    mlp = joblib.load('Disease_prediction_model.joblib')
+    with open('model_pkl', 'rb') as file:
+        mlp = pickle.load(file)
     # Predict disease
     prediction = mlp.predict_proba([sample_x])
     
@@ -170,4 +167,3 @@ def pred_disease(string):
         final.append([diseases_final[i], probs[i], texts[i]])
     
     return final
-
