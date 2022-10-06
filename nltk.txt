@@ -1,4 +1,3 @@
 wordnet
 stopwords
-WordNetLemmatizer
-RegexpTokenizer
+omw-1.4
