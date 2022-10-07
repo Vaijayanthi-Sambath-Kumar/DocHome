@@ -15,7 +15,7 @@ def test():
     phone_number = request.form["phone_number"]
     symptoms = request.form["symptoms"]  
     print(name, age, email, phone_number, symptoms)
-    return render_template("results.html", results = pred_disease(symptoms))
+    return render_template("results.html", results = pred_disease(symptoms), name = name, age = age, email = email, num = phone_number, sym = symptoms)
 
 if(__name__ == "__main__"):
     app.run(debug=True)
