@@ -123,6 +123,7 @@ td {
 td:first-child {
   box-shadow: inset 1px 0 0 #fff;
 }
+
 form .button {
   height: 45px;
   margin: 35px 0;
