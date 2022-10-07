@@ -163,7 +163,7 @@ def pred_disease(string):
             texts.append('Sorry! We currently do not have a treatment available for this disease')
             
     final=[]
-    for i in range(10):
+    for i in range(5):
         final.append([diseases_final[i], probs[i], texts[i]])
     
     return final
