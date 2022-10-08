@@ -1,5 +1,7 @@
 # IEEE-Hackathon
 
+DocHome is a website made especially to solve the uncertainty people feel when they do not exactly know what they are going through medically. Many people, using Internet, self diagnose themselves, but most of the times, they are wrong as Internet is not a reliable source for the same. DocHome helps people to know with above 90% accuracy, what they are suffering from. It uses Machine Learning to validate the symptoms of the user and in return, gives top 5 possible diseases they might be suffering from, along with percentage possibility and remedies for each. Also, it provides a list of nearby doctors for further consultation. 
+To put simply, DocHome is a free and trustworthy source to diagnose yourself.
 
 Instructions on how to pull(for the first time):-
 1) make a new folder named ieee-hackathon
