@@ -40,8 +40,3 @@ Resources:
  
  https://www.youtube.com/watch?v=rq4t_JK91Xc
 
-Names:
-  
-  DocCure
-  
-  DocHome
