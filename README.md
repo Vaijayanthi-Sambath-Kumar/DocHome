@@ -2,9 +2,9 @@ DocHome is a website made especially to solve the uncertainty people feel when t
 To put simply, DocHome is a free and trustworthy source to diagnose yourself.
 
 Instructions on how to pull(for the first time):-
-1) make a new folder named ieee-hackathon
+1) make a new folder
 2) open cmd
-3) go to ieee-hackathon in cmd using the cd command. Google how to use it.
+3) go to cmd using the cd command. Google how to use it.
 4) Use commands :-
    1) git init
    2) git remote add origin https://github.com/Vaijayanthi-Sambath-Kumar/IEEE-Hackathon.git
@@ -12,7 +12,7 @@ Instructions on how to pull(for the first time):-
    
 for subsequent pulling, use:-
 1) open cmd
-2) go to ieee-hackathon in cmd using the cd command. 
+2) go to cmd using the cd command. 
 3) git pull origin main --allow-unrealted-histories
 
 
